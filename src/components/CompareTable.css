@@ -1,0 +1,132 @@
+.compare-table {
+  overflow: hidden;
+}
+
+.compare-scroll {
+  overflow-x: auto;
+}
+
+.compare-table table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.compare-label-col {
+  width: 180px;
+  min-width: 150px;
+}
+
+.compare-prop-col {
+  min-width: 220px;
+}
+
+.compare-header-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+}
+
+.compare-remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(239, 68, 68, 0.15);
+  border-radius: var(--radius-sm);
+  color: var(--danger-400);
+  transition: all var(--transition-fast);
+}
+
+.compare-remove:hover {
+  background: var(--danger-500);
+  color: white;
+}
+
+.compare-thumb {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+.compare-prop-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: color var(--transition-fast);
+}
+
+.compare-prop-title:hover {
+  color: var(--primary-400);
+}
+
+.compare-label {
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+  background: var(--bg-secondary);
+}
+
+.compare-label-inner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.compare-value {
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+  text-align: center;
+}
+
+.amenity-header-row td {
+  padding-top: 20px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.amenity-label {
+  font-size: 0.82rem;
+}
+
+.amenity-cell {
+  text-align: center;
+}
+
+.amenity-yes {
+  color: var(--success-400);
+}
+
+.amenity-no {
+  color: var(--gray-600);
+}
+
+.compare-empty {
+  padding: 60px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.compare-empty h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.compare-empty p {
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}

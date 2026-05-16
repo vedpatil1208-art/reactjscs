@@ -1,0 +1,107 @@
+.contact-form-wrapper {
+  padding: 24px;
+}
+
+.contact-header {
+  margin-bottom: 24px;
+}
+
+.contact-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.agent-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--bg-input);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.agent-avatar {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-primary);
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.agent-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.agent-contact {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.contact-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.field-wrapper {
+  position: relative;
+}
+
+.field-icon {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.textarea-icon {
+  top: 14px;
+}
+
+.icon-input {
+  padding-left: 40px;
+}
+
+.textarea-field {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.contact-submit {
+  width: 100%;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.contact-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--success-400);
+}
+
+.contact-success h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.contact-success p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}

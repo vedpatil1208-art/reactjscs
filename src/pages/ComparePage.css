@@ -1,0 +1,18 @@
+.compare-page {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.compare-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .compare-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
