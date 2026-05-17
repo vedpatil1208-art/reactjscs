@@ -188,4 +188,4 @@ Vercel
 
 ## Author
 
-Developed by - Ved Patil , Shivam Yadav and Maasar
+Developed by - Ved Patil , Shivam Yadav and Maasar Khatik
