@@ -1,4 +1,4 @@
-# Property Finder - https://propertyfinder12.vercel.app/property/5
+# Property Finder - https://propertyfinder12.vercel.app/
 
 Property Finder is a modern and responsive real estate web application built with React JS that allows users to explore, compare, and save properties with an intuitive and user-friendly interface. The platform is designed to simulate a real-world property marketplace where users can browse listings, view detailed property information, calculate mortgage costs, and connect with property agents.
 
