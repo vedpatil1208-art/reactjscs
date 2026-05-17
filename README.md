@@ -8,7 +8,7 @@ The project focuses on delivering a seamless user experience through dynamic fil
 
 #  Features
 
-## 🔍 Advanced Property Search & Filters
+##  Advanced Property Search & Filters
 Users can search and filter properties based on:
 - City/location
 - Property type
@@ -184,8 +184,8 @@ Form handling and validation
 
 ## The application can be deployed using:
 
-## Vercel
+Vercel
 
 ## Author
 
-## Developed by 
+Developed by - Ved Patil , Shivam Yadav and Maasar
