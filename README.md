@@ -1,16 +1,56 @@
-# React + Vite
+# Property Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real estate portal built with React JS where users can browse properties, save favorites, compare listings, and calculate mortgage costs.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Property listings with search and filters (city, type, price, bedrooms)
+- Detailed property pages with image gallery and map view
+- Wishlist to save favorite properties
+- Compare up to 3 properties side-by-side
+- Mortgage/EMI calculator
+- Agent contact form and messaging system
+- OTP verification
+- Responsive design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- React Router v7
+- Vite
+- Lucide React (icons)
+- CSS
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Home** (`/`) — Hero section, featured properties, stats
+2. **Listings** (`/listings`) — All properties with filters
+3. **Property Detail** (`/property/:id`) — Full property info, gallery, map, contact
+4. **Wishlist** (`/wishlist`) — Saved properties
+5. **Compare** (`/compare`) — Side-by-side comparison
+6. **Calculator** (`/calculator`) — Mortgage calculator
+
+## Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/    # Reusable UI components (Navbar, PropertyCard, etc.)
+├── context/       # Global state management (AppContext)
+├── data/          # Property data
+├── pages/         # Page components
+├── App.jsx        # Root component with routes
+└── main.jsx       # Entry point
+```
